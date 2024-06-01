@@ -8,7 +8,7 @@ let content = document.querySelector('.content')
 const burgerModal = () => {
    let navTwo = document.querySelector(".nav-two")
    let burgerAnimate = document.querySelector(".burger")
-   let burger = document.querySelector(".burger").addEventListener("click", () => {
+   let burger = document.querySelector(".burger img").addEventListener("click", () => {
     navTwo.classList.toggle("navShow")
     burgerAnimate.classList.toggle("burgerAnimate")  
    })

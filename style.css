@@ -49,6 +49,13 @@ nav{
     margin:0 auto;
 
 }
+.logo-item{
+    height: 4rem;
+    padding:0;
+    margin-top:2.5rem;
+    position: absolute;
+
+}
 .navMain{
     display: flex;
     justify-content: end;
