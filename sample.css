@@ -1,0 +1,197 @@
+
+
+
+html {
+   scroll-behavior: smooth;
+ }
+body{
+   background-color: rgb(255, 255, 255);
+}
+.crypto{
+   background-color: rgb(233, 229, 229);
+   backdrop-filter: blur(15px);
+   height: 60rem;
+}
+.crypto-table{
+   max-width: 50rem;
+   margin:auto;
+   height: 50rem;
+   overflow:scroll;
+   background-color: rgb(255, 255, 255,0.5);
+   backdrop-filter: blur(15px);
+   overflow-x: hidden;
+}
+.logo{
+   border-radius: 100%;
+   background-color: black;
+   color:white;
+   padding:5px;
+   display: flex;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+}
+nav{
+   position: sticky;
+   top:0;
+   background-color: rgb(255, 255, 255,0.5);
+   backdrop-filter: blur(15px);
+   z-index: 999;
+}
+.logo h1{
+   font-size:2rem;
+   font-weight: bold;
+}
+.row{
+   margin:0 auto;
+
+}
+.navMain{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.nav-two{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+.nav-two a{
+   color:black;
+   font-weight: bold;
+}
+.navList{
+   display: flex;
+   gap:50px;
+}
+.news .row{
+   margin-top:15rem;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  margin-top:5rem;
+  height: 45rem;
+  overflow: scroll;
+  width: 90%;
+  margin:auto;
+  overflow-x: hidden;
+ box-shadow: 0px 0px 2px 0px gray;;
+  
+}
+.content > div{
+   height: 50rem;
+   box-shadow:0px 0px 3px 0px gray;
+   border-radius: 10px;
+   padding:10px;
+  
+}
+.content > div img{
+   border-radius: 5px;
+}
+.news-content{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.article-title{
+   max-width: 30rem;
+   color:rgb(99, 98, 98);
+}
+.article-description{
+   max-width: 30rem;
+}
+footer{
+   height: 20rem;
+   margin-top:15rem;
+
+}
+.footer-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:10rem;
+   height:30rem;
+   background-color: rgb(109, 102, 102);
+}
+.address{
+   display: grid;
+   gap:10px;
+}
+.social-media{
+   display: flex;
+   flex-wrap: wrap;
+   gap:20px;
+}
+.burger{
+   display: none;
+}
+@media only screen and (max-width:1000px){
+   .crypto-table{
+      height: 30rem;
+      overflow:scroll;
+   }
+   .content{
+      height: 40rem;
+   }
+   .crypto{
+      height: 23rem;
+   }
+   .crytpo-desc{
+      width: 50%;
+   }
+}
+
+@media only screen and (max-width: 530px){
+   .body{
+      margin: 0;
+      padding:0;
+    }
+    .burger{
+      display: block;
+      
+     }
+     .burger img{
+      transition: all linear 0.5s;
+     }
+     .nav-two{
+      position:absolute;
+      margin:auto;
+      width:100%;
+      background-color: rgb(246, 248, 246);
+      transform: translateY(-100%);
+      transition: all linear 0.5s;
+      display: grid;
+      justify-content: center;
+      margin-left:10px;
+     
+     }
+     .navList{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+     }
+     .navs{
+      display: grid;
+      justify-content: center;
+     }
+     .navShow{
+      transform: translate(0);
+     }
+     .burgerAnimate img{
+     transform: rotate(90deg);
+     transition: all linear 0.5s;
+     }
+     .note{
+      display: none;
+     }
+
+    
+}
+
