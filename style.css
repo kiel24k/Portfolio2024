@@ -10,7 +10,7 @@ html {
 section{
     width: 100%;
     margin:auto;
-    white-space: nowrap
+   
 }
 :root{
     --main-color:rgb(255, 252, 252);
@@ -309,6 +309,9 @@ footer{
        .burgerAnimate img{
        transform: rotate(90deg);
        transition: all linear 0.5s;
+       }
+       .t{
+        display: none;
        }
       
 }
