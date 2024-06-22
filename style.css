@@ -107,9 +107,14 @@ color:var(--main-color);
    background-color: rgb(216, 202, 202);
 }
 .two{
-    background-color: rgb(247, 245, 244);
+    background-color: rgb(247, 244, 244);
     padding:10px;
+    
 }
+.two > div{
+    display: flex;
+}
+
 .section-two b{
    
     text-wrap: wrap;
@@ -312,6 +317,9 @@ footer{
        }
        .t{
         display: none;
+       }
+       .two > div{
+        display: grid;
        }
       
 }
